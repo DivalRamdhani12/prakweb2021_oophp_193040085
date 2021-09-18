@@ -8,4 +8,10 @@ class Produk {
 }
 
 $produk1 = new Produk();
+$produk1->judul = "Naruto";
 var_dump($produk1);
+
+$produk2 = new produk();
+$produk2->judul = "uncharted";
+$produk2->tambahProperty = "hahaha";
+var_dump($produk2);
